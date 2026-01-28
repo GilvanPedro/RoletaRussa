@@ -17,8 +17,6 @@ public class Main {
             balas.add(i + 1);
         }
 
-        System.out.println(roleta);
-
         while(escolha != roleta && balas.size() != 1){
 
             System.out.println("Escolha uma bala: " + balas);
